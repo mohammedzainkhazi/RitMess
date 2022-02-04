@@ -1,14 +1,9 @@
 var pname,pemail,pphone,prelation,user;
 
 var doh = null;
-// Your web app's Firebase configuration
+
 var firebaseConfig = {
-  apiKey: "AIzaSyAcIEKPzePwimomYVqnCoQgyKaXN7ZypRc",
-  authDomain: "rit-mess.firebaseapp.com",
-  projectId: "rit-mess",
-  storageBucket: "rit-mess.appspot.com",
-  messagingSenderId: "1029786989283",
-  appId: "1:1029786989283:web:413317ecdf565f0d878bd6"
+  //Your Configuration of FireBase 
 };                                         
     firebase.initializeApp(firebaseConfig);
 // Initialize Firebase
