@@ -1,0 +1,24 @@
+.operations{
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+}
+
+.addBtn{
+	margin-top: 30px;
+}
+
+
+.loading {
+  display:block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+ }
