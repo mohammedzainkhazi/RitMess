@@ -11,18 +11,18 @@ var firebaseConfig = {
 function initApp(){
     document.body.style.opacity = 0.5; 
     firebase.auth().onAuthStateChanged(function(user){
-        if(user){
+        // if(user){
             showDiv('operations');
             document.getElementById('loading').style.display = 'none';
             document.getElementById('logoutBtn').style.display = 'block';
             document.body.style.opacity = 1;
-        }
-        else{
-            showDiv('login');
-            document.getElementById('loading').style.display = 'none';
-            document.getElementById('logoutBtn').style.display = 'none';
-            document.body.style.opacity = 1;
-        }
+        // }
+        // else{
+        //     showDiv('login');
+        //     document.getElementById('loading').style.display = 'none';
+        //     document.getElementById('logoutBtn').style.display = 'none';
+        //     document.body.style.opacity = 1;
+        // }
     });
 }
 
