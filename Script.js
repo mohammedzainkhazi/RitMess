@@ -10,7 +10,7 @@ var firebaseConfig = {
 
 function initApp(){
     document.body.style.opacity = 0.5; 
-    firebase.auth().onAuthStateChanged(function(user){
+    // firebase.auth().onAuthStateChanged(function(user){
         // if(user){
             showDiv('operations');
             document.getElementById('loading').style.display = 'none';
@@ -23,7 +23,7 @@ function initApp(){
         //     document.getElementById('logoutBtn').style.display = 'none';
         //     document.body.style.opacity = 1;
         // }
-    });
+    // });
 }
 
 function getVal(id){
