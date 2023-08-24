@@ -33,9 +33,9 @@ function getVal(id){
 
 function checkAuth(){
   user = firebase.auth().currentUser;
-  if (user) {
+  // if (user) {
     showDiv('operations');
-  }
+  // }
 }
 
 function _(Id) {
